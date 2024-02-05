@@ -6,6 +6,8 @@ function NavHeader() {
   const currentPage = useLocation().pathname;
 
   return (
+  <>
+  <h1>Ellysa Schottler</h1>
     <ul className="nav nav-header">
       <li className="nav-item">
         <Link
@@ -14,16 +16,16 @@ function NavHeader() {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          About Me
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/About"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          to="/Portfolio"
+          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
@@ -45,6 +47,8 @@ function NavHeader() {
         </Link>
       </li>
     </ul>
+
+    </>
   );
 }
 
