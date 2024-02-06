@@ -30,8 +30,8 @@ THEN I receive a notification that this field is required
 WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
 
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+XWHEN I am presented with the Resume section
+XTHEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
 
 XFooter:
