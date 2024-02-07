@@ -5,7 +5,7 @@ export default function Resume() {
         <p>
 
 <br/>
-Download my <a href="./src/assets/ESchottler-Resume.pdf" download="ESchottler-Resume.pdf">
+Download my <a href="./assets/ESchottler-Resume.pdf" download="ESchottler-Resume.pdf">
         resume
       </a>
 <h2>Front-end proficiencies:</h2>
