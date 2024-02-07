@@ -70,7 +70,7 @@ function Form() {
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="message"
+          type="text"
           placeholder="Message"
         />
         <button type="submit">Submit</button>
