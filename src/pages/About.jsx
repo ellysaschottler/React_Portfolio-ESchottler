@@ -4,7 +4,7 @@ export default function About() {
         <h1>About Me</h1>
         <div>
           <img
-              src="./assets/self.jpg"
+              src="./src/assets/self.jpg"
               alt="Picture of Ellysa Schottler"
               width= "20%"
               height= "auto"
