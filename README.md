@@ -2,7 +2,7 @@
 
 ## Description
 
-A portfolio built with React, displaying some of my applications and websites.
+A portfolio built with React, displaying some of my applications and websites..
 
 
 ## Usage
