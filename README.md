@@ -9,7 +9,7 @@ A portfolio built with React, displaying some of my applications and websites.
 
 This application is deployed at https://magical-clafoutis-c9f168.netlify.app/
 
-A screenshot of this application in use: ![Screenshot](./portfolio-eschottler/src/assets/React-Portfolio.png)
+A screenshot of this application in use: ![Screenshot](./src/assets/React-Portfolio.png)
 
 ## Credits
 
