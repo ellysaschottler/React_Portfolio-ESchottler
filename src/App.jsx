@@ -9,13 +9,13 @@ function App() {
 
 
   return (
-    <>
+    <div className="container">
       <Nav />
       <main className="mx-3">
         <Outlet />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
